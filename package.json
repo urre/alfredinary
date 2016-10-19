@@ -1,6 +1,6 @@
 {
   "name": "alfredinary",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Take screenshot, upload to Cloudinary. Get back https image link to clipboard.",
   "scripts": {
     "postinstall": "alfy-init"
