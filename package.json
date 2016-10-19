@@ -1,6 +1,6 @@
 {
   "name": "alfredinary",
-  "version": "0.10.0",
+  "version": "0.11.0",
   "description": "Take screenshot, upload to Cloudinary. Get back https image link to clipboard.",
   "main": "index.js",
   "scripts": {
