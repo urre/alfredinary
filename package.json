@@ -23,7 +23,8 @@
   "files": [
     "index.js",
     "icon.png",
-    "info.plist"
+    "info.plist",
+    ".env-example"
   ],
   "dependencies": {
     "alfy": "^0.5.0",
