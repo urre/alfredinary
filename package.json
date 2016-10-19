@@ -1,6 +1,6 @@
 {
   "name": "alfredinary",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Take screenshot, upload to Cloudinary. Get back https image link to clipboard.",
   "main": "index.js",
   "scripts": {
@@ -27,9 +27,9 @@
     ".env-example"
   ],
   "repository": {
-      "type": "git",
-      "url": "https://github.com/urre/alfredinary.git"
-    },
+    "type": "git",
+    "url": "https://github.com/urre/alfredinary.git"
+  },
   "engines": {
     "node": ">=4.2.4"
   },
