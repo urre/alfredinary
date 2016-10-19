@@ -108,7 +108,9 @@
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
-				<string>path=/users/urbansanden/dropbox/screenshots/
+				<string>username=$USER;
+
+path=/users/${username}/dropbox/screenshots/
 filename=screenshot.jpg
 screencapture -o -i $path$filename</string>
 				<key>scriptargtype</key>

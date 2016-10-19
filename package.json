@@ -1,14 +1,19 @@
 {
   "name": "alfredinary",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Take screenshot, upload to Cloudinary. Get back https image link to clipboard.",
   "main": "index.js",
   "scripts": {
     "postinstall": "alfy-init"
   },
   "keywords": [
+    "npm",
+    "screenshot",
     "cloudinary",
-    "screenshots"
+    "alfred",
+    "alfred-workflow",
+    "workflow",
+    "alfy"
   ],
   "author": {
     "name": "Urban Sanden",
@@ -16,19 +21,10 @@
     "url": "urre.me"
   },
   "files": [
-     "index.js",
-     "icon.png",
-     "info.plist"
-   ],
-  "keywords": [
-   "npm",
-   "screenshot",
-   "cloudinary",
-   "alfred",
-   "alfred-workflow",
-   "workflow",
-   "alfy"
- ],
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
   "dependencies": {
     "alfy": "^0.5.0",
     "cloudinary": "^1.4.3",
