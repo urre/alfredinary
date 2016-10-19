@@ -9,7 +9,7 @@ This workflow provides this in a single command:
 1. Take screenshot on your mac
 2. Upload it to [Cloudinary](https://cloudinary.com)
 3. Get back https image link to your clipboard
-4. ⌘+V
+4. <kbd>cmd ⌘</kbd>+<kbd>V</kbd>
 
 ## Why?
 
@@ -53,9 +53,9 @@ Edit the yellow bash script in the image below.
 
 2. Take a screenshot as usual, mark section of your screen or use <kbd>Space</kbd> to select the current window.
 
-3. Alfredinary now uploads that screenshot to your Cloudinary account, and you will get back a https image link. J
+3. Alfredinary now uploads that screenshot to your Cloudinary account, and you will get back a https image link. 
 
-4. ⌘+V
+4. <kbd>cmd ⌘</kbd>+<kbd>V</kbd>
 
 ![Cloudinary](https://cloud.githubusercontent.com/assets/307676/19523739/b9d18f78-961b-11e6-96ff-49bedaf8b690.jpg)
 
