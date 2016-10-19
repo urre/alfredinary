@@ -41,12 +41,17 @@ Note. You need to have an account on [Cloudinary](https://cloudinary.com). It's 
 
 Edit the yellow bash script in the image below.
 
-<img width="931" alt="skarmavbild 2016-10-19 kl 15 47 12" src="https://cloud.githubusercontent.com/assets/307676/19521747/1cf6bc2e-9615-11e6-96d5-79ea022918dc.png">
+<img width="931" alt="Workflow" src="https://cloud.githubusercontent.com/assets/307676/19521747/1cf6bc2e-9615-11e6-96d5-79ea022918dc.png">
 
 ## Use
 
 Open up Alfred and type "Alfredinary". Or just begin typing "Alfredi..", or "Alf..." 😊
 
-<img width="701" alt="skarmavbild 2016-10-19 kl 15 46 51" src="https://cloud.githubusercontent.com/assets/307676/19521683/c3a6a33c-9614-11e6-9b4b-b537807d1135.png">
+<img width="701" alt="Alfred" src="https://cloud.githubusercontent.com/assets/307676/19521683/c3a6a33c-9614-11e6-9b4b-b537807d1135.png">
+
+
+Your screenshot is now safe and sound over at your Cloudinary account.
+
+![Cloudinary](https://cloud.githubusercontent.com/assets/307676/19523739/b9d18f78-961b-11e6-96ff-49bedaf8b690.jpg)
 
 Enjoy!
