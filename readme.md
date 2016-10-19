@@ -1,6 +1,6 @@
-# Aldredinary
+# Alfredinary
 
-Screenshot 👉 Cloudinary 👉 Clipboard
+Alfred 👉 Take Screenshot 👉 Cloudinary 👉 Clipboard
 
 ## Features
 
@@ -11,7 +11,7 @@ This workflow provides this in a single command:
 3. Get back https image link to your clipboard
 4. ⌘+V
 
-## Why
+## Why?
 
 + Quickly share screenshots
 + No need to store the files on your computer if you don't want.
@@ -47,13 +47,15 @@ Edit the yellow bash script in the image below.
 
 ## Use
 
-Open up Alfred and type "Alfredinary". Or just begin typing "Alfredi..", or "Alf..." 😊
+Open up Alfred and type "Alfredinary". Or just begin typing "Alfredi..", or "Alf..." + <kbd>Enter</kbd>
 
 <img width="701" alt="Alfred" src="https://cloud.githubusercontent.com/assets/307676/19521683/c3a6a33c-9614-11e6-9b4b-b537807d1135.png">
 
+Take a screenshot as usual, mark section of your screen or use <kbd>Space</kbd> to select the current window.
 
-Your screenshot is now safe and sound over at your Cloudinary account.
+Alfredinary now uploads that screenshot to your Cloudinary account, and you will get back a https image link. J
+
+Enjoy!
 
 ![Cloudinary](https://cloud.githubusercontent.com/assets/307676/19523739/b9d18f78-961b-11e6-96ff-49bedaf8b690.jpg)
 
-Enjoy!
