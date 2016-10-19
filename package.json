@@ -2,6 +2,7 @@
   "name": "alfredinary",
   "version": "0.4.0",
   "description": "Take screenshot, upload to Cloudinary. Get back https image link to clipboard.",
+  "main": "index.js",
   "scripts": {
     "postinstall": "alfy-init"
   },
@@ -25,6 +26,10 @@
     "info.plist",
     ".env-example"
   ],
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/urre/alfredinary.git"
+    },
   "engines": {
     "node": ">=4.2.4"
   },
