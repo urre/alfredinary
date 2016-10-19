@@ -23,7 +23,9 @@ This workflow provides this in a single command:
 
 1. Install Npm package
 
-    npm install -g alfredinary
+```bash
+npm install -g alfredinary
+```
 
 2. Create env-file. When installed, open up Alfred Workflows and right click to open the workflow directory in Terminal/finder. Create an ``.env`` file in the project root. You can rename ``.env-example`` to ``.env``. Edit ``PATHNAME`` AND ``FILENAME`` as you wish.
 
@@ -35,7 +37,7 @@ PATHNAME="/users/myusername/dropbox/screenshots/"
 FILENAME="screenshot.jpg"
 ```
 
-Note. You need to have an account on [Cloudinary](https://cloudinary.com). It's free.
+Get cloudname, apikey and apisecret from your account on [Cloudinary](https://cloudinary.com). Don't have an account? Get one. It's free. 
 
 3. Edit temp location (pathname and filename) of the screenshot on disk. The default is ``/users/${username}/dropbox/screenshots/screenshot.jpg``
 
