@@ -20,12 +20,6 @@
     "email": "hej@urre.me",
     "url": "urre.me"
   },
-  "files": [
-    "index.js",
-    "icon.png",
-    "info.plist",
-    ".env-example"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/urre/alfredinary.git"
