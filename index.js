@@ -16,6 +16,10 @@ const fileSettings = {
 };
 
 // Upload file to Cloudinary. Get back https image link, copy to the clipboard
-cloudinary.uploader.upload(`${fileSettings.pathname}${fileSettings.filename}`, function(result) {
-  console.log(result.secure_url);
-});
+cloudinary.v2.uploader.upload(
+  `${fileSettings.pathname}${fileSettings.filename}`,
+  { folder: process.env.FOLDERNAME },
+  function(result) {
+    console.log(result.secure_url);
+  }
+);
