@@ -9,17 +9,18 @@ cloudinary.config({
   api_secret: process.env.APISECRET
 });
 
-// Settings for path and filename. Read from .env-file
+// Settings for path, filename and cloudinary folder name. Read from the .env-file
 const fileSettings = {
   pathname: process.env.PATHNAME,
-  filename: process.env.FILENAME
+  filename: process.env.FILENAME,
+  foldername: process.env.FOLDERNAME,
 };
 
 // Upload file to Cloudinary. Get back https image link, copy to the clipboard
 cloudinary.v2.uploader.upload(
   `${fileSettings.pathname}${fileSettings.filename}`,
-  { folder: process.env.FOLDERNAME },
-  function(result) {
+  { folder: `${fileSettings.foldername}` },
+  function(error, result) {
     console.log(result.secure_url);
   }
 );
