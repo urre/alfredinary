@@ -8,8 +8,8 @@ This workflow provides this in a single command:
 
 1. Take screenshot on your mac
 2. Upload it to [Cloudinary](https://cloudinary.com)
-3. Get back https image link to your clipboard
-4. <kbd>cmd ⌘</kbd>+<kbd>V</kbd>
+3. Get back the https image link in your clipboard
+4. Paste and use! <kbd>cmd ⌘</kbd>+<kbd>V</kbd>
 
 ## Why?
 
