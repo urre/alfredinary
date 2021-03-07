@@ -3,9 +3,6 @@
   "version": "0.13.0",
   "description": "Take screenshot, upload to Cloudinary. Get back https image link to clipboard.",
   "main": "index.js",
-  "scripts": {
-    "postinstall": "alfy-init"
-  },
   "keywords": [
     "npm",
     "screenshot",
@@ -27,9 +24,13 @@
   "engines": {
     "node": ">=4.2.4"
   },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
   "dependencies": {
-    "alfy": "^0.1.0",
-    "cloudinary": "^1.14.0",
-    "dotenv": "^8.0.0"
+    "alfy": "^0.10.0",
+    "cloudinary": "^1.25.0",
+    "dotenv": "^8.2.0"
   }
 }
