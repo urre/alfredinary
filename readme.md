@@ -21,7 +21,7 @@ This workflow provides this in a single command:
 
 ## Install
 
-1. Install Npm package
+1. Install the npm package
 
 ```bash
 npm install -g alfredinary
