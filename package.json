@@ -25,8 +25,7 @@
     "node": ">=4.2.4"
   },
   "scripts": {
-    "postinstall": "alfy-init",
-    "preuninstall": "alfy-cleanup"
+    "postinstall": "./node_modules/alfy/init.js"
   },
   "dependencies": {
     "alfy": "^0.10.0",
