@@ -33,14 +33,14 @@ npm install -g alfredinary
 CLOUDNAME="XXXXX"
 APIKEY="XXXXXXXXXXXX"
 APISECRET="XXXXXXXXXXXX"
-PATHNAME="/users/myusername/dropbox/screenshots/"
+PATHNAME="/users/myusername/Pictures/screenshots/"
 FILENAME="screenshot.jpg"
-FOLDERNAME="/"
+FOLDERNAME="/alfred"
 ```
 
 Get cloudname, apikey and apisecret from your account on [Cloudinary](https://cloudinary.com). Don't have an account? Get one. It's free.
 
-3. Edit temp location (pathname and filename) of the screenshot on disk. The default is `/users/${username}/dropbox/screenshots/screenshot.jpg`
+3. Edit temp location (pathname and filename) of the screenshot on disk. The default is `/users/${username}/Pictures/screenshots/screenshot.jpg`
 
 Edit the yellow bash script in the image below.
 
